@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+    <!--내부 스타일 시트-->
+    <style>
+
+        ul {
+            list-style-type: upper-roman;
+        }
+
+        ol {
+            list-style-type: circle
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+        /*아이디 지정자*/
+        #ilmedia {
+            color: yellow;
+        }
+        /*클레스 지정자*/
+        .san {
+            color: blue;
+        }
+        p {         
+            font-family: 'Nanum Pen Script', cursive;
+            font-weight: bold;
+            font-size: 45pt;
+            font-style: italic;
+           
+            color: pink;
+            text-decoration: underline;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body>
+    <p>상일미디어고 <br>
+       환영합니다</p>
+    <p class="san" id="ilmedia">  Sanilmedia</p>
+    <p class="soft" id="were">스마트소프트웨어과</p>
+    <p class="inform" id="com">스마트정보통신과</p>
+    <p class="media" id="design">디지털미디어디자인과</p>
+    <p class="comic" id="movie">디지털만화영상과</p>
+    <p class="bio" id="food">바이오푸드과</p>
+
+        <!--순서 있는 목록-->
+        <ol class="ol">
+            <li>스마트소프트웨어</li>
+            <li>스마트정보통신과</li>
+            <li>디지털미디어디자인과</li>
+            <li>디지털만화영상과</li>
+            <li>바이오푸드과</li>
+           
+        </ol>
+
+        <ul class="ul">
+            <li>ADC</li>
+            <li>여울컴</li>
+            <li>엑셀연구반</li>
+            <li>라떼아트</li>
+        </ul>
+
+</body>
+</html>
