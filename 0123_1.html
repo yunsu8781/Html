@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>input type</title>
+    </head>
+    <body>
+
+        <form>
+           
+            <!--텍스트 입력-->
+            First name:<br>
+            <input type="text" name="firstname">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname">
+
+            <!--비밀번호 입력-->
+            User name:<br>
+            <input type="text" name="username"><br>
+            User password:<br>
+            <input type="password" name="psw">
+
+            <!--제출버튼-->
+            First name:<br>
+            <input type="text" name="firstname" value="Mickey"><br>
+            Last name:<br>
+            <input type="text" name="lastname" value="Mouse"><br><br>
+            <input type="submit"> <br>
+
+            <!--라디오 버튼-->
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label> <br>
+
+            <!--체크박스-->
+            <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+            <input type="checkbox" name="vehicle2" value="Car"> I have a car <br>
+
+            <!--버튼-->
+            <input type="button" onclick="alert('Hello World!')" value="Click Me!"> <br>
+
+            <!--날짜-->
+            Birthday (date and time):
+            <input type="datetime-local" name="bdaytime"> <br>
+
+            <!--이메일-->
+            E-mail:
+            <input type="email" name="email"> <br>
+
+            <!--주소-->
+            Add your homepage:
+            <input type="url" name="homepage"> <br>
+
+        </form>
+
+    </body>
+    
+</html>
