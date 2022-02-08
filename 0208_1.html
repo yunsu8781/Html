@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>position</title>
+    <style>
+        #absolute {
+  background: yellow;
+  position: absolute;
+  right: 0;
+}
+
+#parent {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: skyblue;
+}
+
+#child {
+  position: absolute;
+  right: 0;
+}
+    </style>
+</head>
+<body>
+
+    <div>
+        <div id="absolute">absolute</div>
+      </div>
+      <div id="parent">
+        <div id="child">children</div>
+      </div>
+    
+</body>
+</html>
